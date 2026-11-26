@@ -1,0 +1,11 @@
+## .NET
+bin/
+obj/
+*.user
+.vs/
+.vscode/
+
+## Base SQLite generee localement (se recree avec "dotnet ef database update")
+*.db
+*.db-shm
+*.db-wal
